@@ -23,7 +23,7 @@ api = tweepy.API(auth)
 bot = telegram.Bot(token=TELEGRAM_BOT_TOKEN)
 
 # Usuario de Twitter a monitorear
-USERNAME = "nombre_de_usuario"
+USERNAME = "EneeHnOficial"
 last_tweet_id = None
 
 def obtener_ultimo_tweet():
